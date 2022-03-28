@@ -36,9 +36,9 @@
 </table>
 <form action="{% url 'cancellings' %}" method="post">
     <div class="container">
-    <h3>Enter the BUS id to cancel booking</h3>
+    <h3>Enter the Booking id to cancel booking</h3>
     {% csrf_token %}
-        <label for="example-email-input" class="col-2 col-form-label">Bus ID</label>
+        <label for="example-email-input" class="col-2 col-form-label">Booking ID</label>
         <div class="col-5">
             <input name='bus_id' class="form-control" type="number" id="example-email-input">
         </div>
