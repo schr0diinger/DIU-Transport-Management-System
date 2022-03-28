@@ -3,7 +3,7 @@ A bus management site using python django framework
 
 ## Project Preview
 
-![Logo](https://i.ibb.co/hHqVX6x/ezgif-com-gif-maker-4.gif) 
+![Logo](https://i.ibb.co/30vcQqF/ezgif-com-gif-maker-4.gif) 
     
 ## Activate virtual environment
 ```
