@@ -1,0 +1,70 @@
+{% extends 'myapp/base.html' %}
+{% block content %}
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #596275;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.head{
+  color: black;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<br>
+<br>
+  <h1 class="head">Welcome to DIU Transport Management System</h1>
+  <br>
+  <br>
+    <div class="container">
+        <img width="100%" src="https://daffodilvarsity.edu.bd/photos/shares/diu-trans.jpg" alt="Avatar" class="image">
+        <div class="middle">
+          <div class="text">DIU Transport</div>
+        </div>
+      </div>
+ 
+</body>
+</html>
+{% endblock %}
+
