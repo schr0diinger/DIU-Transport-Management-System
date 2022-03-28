@@ -3,7 +3,8 @@
 <div class="container">
         <div class="row">
             <div class="col-sm-6 mx-auto" style="margin-top: 70px">
-                <h2>Find bus</h2>
+                <h2 style="text-align:center;">Find bus</h2>
+                <br>
                 <form action="{% url 'findbus' %}" method="post">
                     {% csrf_token %}
                     <div class="form-group row">
@@ -25,7 +26,7 @@
                         </div>
                     </div>
                     <div class="pull-right">
-                        <button type="submit" class="btn btn-success float-right">Find bus</button>
+                        <button type="submit" class="btn btn-success float-right" style="background-color: #596275; color: white; ">Find bus</button>
                     </div>
                     {{error}}
 
