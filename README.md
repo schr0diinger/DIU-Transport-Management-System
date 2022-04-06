@@ -12,6 +12,7 @@ conda activate base
 ## Install dependency
 ```
 pip install django
+pip install mysqlclient
 ```
 ## Run app
 ```
