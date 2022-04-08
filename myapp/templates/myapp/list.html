@@ -1,7 +1,9 @@
 {% extends 'myapp/base.html' %}
 {% block content %}
 <h3>{{msg}}</h3>
-<h2>List of buses</h2>
+<br>
+<h2 style="text-align:center;">List of available Buses from {% for row in bus_list %} {{row.source}} to {{row.dest}} {% endfor %}</h2>
+<hr>
 <table class="table table-striped" >
     <thead style="background-color: #596275 ;color: white;">
     <td>ID</td>
