@@ -1,5 +1,5 @@
-# DIU-Bus-Management-System
-A bus management site using python django framework
+# DIU-Transport-Management-System
+A Transport management site using python django framework
 
 ## Project Preview
 
